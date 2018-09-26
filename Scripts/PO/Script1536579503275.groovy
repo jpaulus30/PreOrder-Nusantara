@@ -72,3 +72,5 @@ WebUI.click(findTestObject('Object Repository/Page_Pre-booking Dwidayatour Pesta
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Pre-booking Dwidayatour Pesta/h2_Terima kasih telah melakuka'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject(null), 'test git')
+
