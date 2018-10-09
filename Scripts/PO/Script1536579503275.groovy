@@ -69,6 +69,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Pre-booking Dwidayatour Pes
 
 WebUI.click(findTestObject('Object Repository/Page_Pre-booking Dwidayatour Pesta/button_PRE-ORDER NOW'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Pre-booking Dwidayatour Pesta/h2_Terima kasih telah melakuka'), 
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Pre-booking Dwidayatour Pesta/h2_Terima kasih telah melakuka'), 
     FailureHandling.STOP_ON_FAILURE)
 
